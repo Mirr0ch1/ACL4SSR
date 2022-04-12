@@ -1,0 +1,30 @@
+# Steam Mainland
+DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+DOMAIN-SUFFIX,cdn.mileweb.cs.steampowered.com.8686c.com
+DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
+DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+
+# Battle Mainland
+DOMAIN-SUFFIX,file.myqcloud.com
+DOMAIN-SUFFIX,client05.pdl.wow.battlenet.com.cn
+DOMAIN-SUFFIX,client02.pdl.wow.battlenet.com.cn
+
+# Xbox Assets
+DOMAIN-SUFFIX,xbox.ipv6.microsoft.com
+DOMAIN-SUFFIX,notice.xbox.com
+DOMAIN-SUFFIX,speedtest.xboxlive.com
+DOMAIN-SUFFIX,networktest.xboxlive.com
+DOMAIN-SUFFIX,assets1.xboxlive.com
+DOMAIN-SUFFIX,assets2.xboxlive.com
+DOMAIN-SUFFIX,dlassets.xboxlive.com
+DOMAIN-SUFFIX,dlassets2.xboxlive.com
+DOMAIN-SUFFIX,screenshotsmetadata.xboxlive.com
+
+# PlayStation Assets
+DOMAIN-SUFFIX,dl.playstation.net
+DOMAIN-SUFFIX,update.playstation.net
