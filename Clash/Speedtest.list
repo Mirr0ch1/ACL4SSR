@@ -2,3 +2,9 @@
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,cdnst.net
+
+# > Fast
+DOMAIN-SUFFIX,fast.com
+
+# > Speed Test by Cloudflare
+DOMAIN-SUFFIX,speed.cloudflare.com
