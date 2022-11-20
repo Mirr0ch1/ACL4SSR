@@ -1,0 +1,3 @@
+#Mozilla Default STUN host on AWS US
+#Currently using by Neteast Cloud Game
+IP-CIDR,23.21.150.121/24,no-resolve
