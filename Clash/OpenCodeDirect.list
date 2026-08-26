@@ -1,0 +1,12 @@
+# opencode.ai 仅 API endpoint 直连
+# 场景：浏览器访问 opencode.ai 官网 / 做登录验证时走代理；
+#       通过 opencode zen 订阅 / go 订阅调用大模型 API 时直连。
+# 实现：URL-REGEX 精确匹配 3 个 endpoint（完整 URL 含路径）。
+#       其余 opencode.ai 路径不匹配任何规则，将落入 🐟 漏网之鱼 -> 🚀 节点选择 走代理。
+# 注意：此规则集被挂在 ini 规则集最顶部（AI 规则集之前），保证 API 直连优先于未来的 AI 分流。
+URL-REGEX,^https?://opencode\.ai/zen/go/v1/responses(\?.*)?$
+URL-REGEX,^https?://opencode\.ai/zen/go/v1/chat/completions(\?.*)?$
+URL-REGEX,^https?://opencode\.ai/zen/go/v1/messages(\?.*)?$
+# 如需新增 endpoint，按同样格式追加一行即可。
+# 若客户端不支持 URL-REGEX，退路：整域直连（去掉上面 3 行，改用）：
+# DOMAIN-SUFFIX,opencode.ai
